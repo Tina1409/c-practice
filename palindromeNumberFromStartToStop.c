@@ -1,4 +1,5 @@
 //Palindrome numbers between a to n
+#include<stdio.h>
 void main(){
 	//declaraing variables
 	int start,stop,num,temp,ans;
