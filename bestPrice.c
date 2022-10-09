@@ -1,6 +1,13 @@
 //best price
 #include<stdio.h>
 int deparment(){
+	printf("\n1.Grocery");
+	printf("\n2.Cosmetic");
+	printf("\n3.Stationary");
+	printf("\n4.Electronics");
+	printf("\n5.Washing");
+	printf("\n6.Snacks");
+	printf("\n7.Sweets");
 	
 }
 int main(){
