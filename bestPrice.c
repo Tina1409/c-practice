@@ -1,5 +1,6 @@
 //best price
 #include<stdio.h>
+int selectDepartment();
 int deparment(){
 	printf("\n1.Grocery");
 	printf("\n2.Cosmetic");
