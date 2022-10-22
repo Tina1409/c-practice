@@ -1,7 +1,11 @@
 //how many digits in a number using function
 #include<stdio.h>
+
+int countDigits();
+
 int main(){
-	countDigits();
+	int s=countDigits();
+	printf("%d",s);
 }
 
 int countDigits(){
@@ -9,10 +13,11 @@ int countDigits(){
 	printf("Enter the number: ");
 	scanf("%d",&n);
 	int count =0;
+	
 	while(n!=0){
 		n=n/10;
 		count++;
 	}
-	printf("the no of digits are:%d",count);
+	return(count);
 }
 
