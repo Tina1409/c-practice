@@ -1,15 +1,15 @@
 #include<stdio.h>
-//declaring variables globally
-int a,s,m,d,num1,num2,choice;
 
 //function for output terminal screen
-void outputTerminal(){
+int options(){
+	int choice=0;
 	printf("\t\t***Welcome to calculating service***\t\t");
 	//asking users choice 
 	printf("\nchoose the operation you want to perform:\n");
 	printf("1.Addition\n2.Subtraction\n3.Multiplication\n4.Division\n5.Exit\n");
 	printf("Enter your choice: ");
 	scanf("%d",&choice);
+	return (choice);
 }
 
 //function for taking user input values
@@ -81,7 +81,7 @@ int division(int num1,int num2){
 }
 
 //function for switch case
-void switchCase(){
+void calculator(int choice){
 	switch(choice){
 		case(1):
 			userInputValue();
@@ -111,10 +111,10 @@ void switchCase(){
 		}	
 }
 
-
 int main(){
 	while(1){
-		outputTerminal();
-		switchCase();
+		int choice=options();
+		calculator(choice);
+		
 	}	
 }
