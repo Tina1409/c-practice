@@ -1,2 +1,3 @@
 //train reservation
-int main()
+int main(){
+}
