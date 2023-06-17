@@ -1,0 +1,3 @@
+//PROGRAM TO PRINT DIAMOND PATTERN
+#include<stdio.h>
+
