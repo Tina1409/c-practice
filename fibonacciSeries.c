@@ -1,4 +1,4 @@
-//fibonacci series with output in function
+//fibonacci series with output in functions
 #include<stdio.h>
 int main(){
 	int n;
